@@ -1,0 +1,14 @@
+{
+	"channel": "$SLACK_CHANNEL",
+	"username": "$SLACK_USERNAME", 
+	"icon_emoji": "$SLACK_ICON",
+    "attachments": [
+        {
+			"fallback": "'$SERVICE_NAME' is on its way to kube across all regions",
+			"author_name": "admin-portal",
+			"title": "'$SERVICE_NAME' is on its way to kube across all regions",
+            "text": "",
+			"thumb_url": "http://i.imgur.com/OJkaVOI.jpg?1"
+        }
+    ]
+}
